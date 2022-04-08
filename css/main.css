@@ -117,3 +117,36 @@ footer p {
 .recent-post a:hover {
   font-weight: bold;
 }
+
+.gufa {
+  background: url("../images/surya-darshan.jpg") no-repeat center;
+  background-size: cover;
+  transition: all 0.7s ease-in-out;
+}
+
+.gufa:hover {
+  background: url("../images/ihi.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.travel {
+  background: url("../images/DSCF2329-copress.jpg") no-repeat center;
+  background-size: cover;
+  transition: all 0.7s ease-in-out;
+}
+
+.travel:hover {
+  background: url("../images/DSCF2387.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.food {
+  background: url("../images/food-blog-banner.jpg") no-repeat center;
+  background-size: cover;
+  transition: all 0.7s ease-in-out;
+}
+
+.food:hover {
+  background: url("../images/dat.jpg") no-repeat center;
+  background-size: cover;
+}
