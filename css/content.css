@@ -117,3 +117,12 @@ h2 {
 .content p {
   margin-top: 5px;
 }
+
+.recent-post a {
+  text-decoration: none;
+  color: black;
+}
+
+.recent-post a:hover {
+  font-weight: bold;
+}

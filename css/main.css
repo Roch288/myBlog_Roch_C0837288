@@ -108,3 +108,12 @@ footer {
 footer p {
   text-align: center;
 }
+
+.recent-post a {
+  text-decoration: none;
+  color: black;
+}
+
+.recent-post a:hover {
+  font-weight: bold;
+}
