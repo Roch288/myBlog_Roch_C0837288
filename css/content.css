@@ -1,7 +1,8 @@
 body {
   display: flex;
   justify-content: center;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: Academy Engraved LET;
 }
 
 .main-wrapper {
@@ -125,4 +126,10 @@ h2 {
 
 .recent-post a:hover {
   font-weight: bold;
+}
+
+.food-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

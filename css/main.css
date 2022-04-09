@@ -1,7 +1,8 @@
 body {
   display: flex;
   justify-content: center;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: Academy Engraved LET;
 }
 
 .main-wrapper {
@@ -109,12 +110,12 @@ footer p {
   text-align: center;
 }
 
-.recent-post a {
+a {
   text-decoration: none;
   color: black;
 }
 
-.recent-post a:hover {
+a:hover {
   font-weight: bold;
 }
 
@@ -141,12 +142,23 @@ footer p {
 }
 
 .food {
-  background: url("../images/food-blog-banner.jpg") no-repeat center;
+  background: url("../images/food/samay-baji.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.7s ease-in-out;
 }
 
 .food:hover {
-  background: url("../images/dat.jpg") no-repeat center;
+  background: url("../images/food/dal-bhat.jpg") no-repeat center;
   background-size: cover;
+}
+
+.photo-gallery .photo {
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.photo-gallery .photo-lg {
+  background-size: cover;
+  width: 100px;
 }
