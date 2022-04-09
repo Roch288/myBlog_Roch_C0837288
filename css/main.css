@@ -212,3 +212,29 @@ a:hover {
     width: 80vw;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  .main-wrapper {
+    width: 100%;
+  }
+
+  .blog-item {
+    width: 80vw;
+  }
+
+  .blog-item .blog-image {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .content-wrapper .aside .item {
+    width: 80vw;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  .content-wrapper .aside {
+    justify-content: center;
+    display: flex;
+  }
+}
