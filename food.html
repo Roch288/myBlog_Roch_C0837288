@@ -7,16 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Blog</title>
   <link rel="stylesheet" href="../css/content.css">
+  <link rel="stylesheet" href="icofont/icofont.min.css">
 </head>
 
 <body>
   <div class="main-wrapper">
     <!-- Heading -->
-    <h1>My Blogs</h1>
+    <div class="header">
+      <h1>My Blogs</h1>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="icofont-navigation-menu"></i></a>
+    </div>
     <!-- Heading -->
 
     <!-- NavBar -->
-    <div class="nav-wrapper">
+    <div class="nav-wrapper" id="topNav">
       <div class="nav-bar">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -126,6 +130,17 @@
     </footer>
 
   </div>
+
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("topNav");
+      if (x.className === "nav-wrapper") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-wrapper";
+      }
+    }
+  </script>
 
 </body>
 

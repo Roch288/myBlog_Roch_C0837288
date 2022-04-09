@@ -15,12 +15,12 @@
     <!-- Heading -->
     <div class="header">
       <h1>My Blogs</h1>
-      <a><i class="icofont-navigation-menu"></i></a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="icofont-navigation-menu"></i></a>
     </div>
     <!-- Heading -->
 
     <!-- NavBar -->
-    <div class="nav-wrapper">
+    <div class="nav-wrapper" id="topNav">
       <div class="nav-bar">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -97,7 +97,16 @@
     </footer>
 
   </div>
-
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("topNav");
+      if (x.className === "nav-wrapper") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-wrapper";
+      }
+    }
+  </script>
 </body>
 
 </html>
