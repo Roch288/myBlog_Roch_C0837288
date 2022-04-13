@@ -122,7 +122,7 @@ a:hover {
 }
 
 .gufa {
-  background: url("../images/surya-darshan.jpg") no-repeat center;
+  background: url("../images/lifestyle/surya-darshan.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.7s ease-in-out;
 }
@@ -223,7 +223,7 @@ a:hover {
   }
 
   .blog-item .blog-image {
-    width: 30vw;
+    /* width: 30vw; */
     height: 30vw;
   }
 
