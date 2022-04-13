@@ -347,17 +347,20 @@ a:hover {
   }
 }
 
-/* section p {
+section p {
   font-family: "Lato";
   color: rgb(160, 160, 160);
   margin-top: 0;
 }
 section {
-  column-count: 1;
+  column-count: 2;
+  column-rule-style: solid;
+  column-rule-color: rgb(43, 43, 43);
   column-gap: 2em;
+  margin-top: 10px;
 }
 
 section img {
   width: 80%;
   margin: 1em 0 0;
-} */
+}
